@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EE36211C-FB0E-4D14-8959-FDFA694A8980}</ProjectGuid>
+    <ProjectGuid>{C84AA07A-DC89-4561-8587-CE44EF15E377}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Homework4</RootNamespace>
-    <AssemblyName>Homework4</AssemblyName>
+    <RootNamespace>HangmanGitHub</RootNamespace>
+    <AssemblyName>HangmanGitHub</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -53,9 +53,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -64,7 +61,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,32 +74,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Bitmap1.bmp" />
-    <Content Include="dead.gif" />
-    <Content Include="hangman01.png" />
-    <Content Include="hangman02.png" />
-    <Content Include="hangman05.png" />
-    <Content Include="hangman06.png" />
-    <Content Include="hangman07.png" />
-    <Content Include="Image1.gif" />
-    <Content Include="Properties\dead.gif" />
-    <Content Include="Properties\hangman01.png" />
-    <Content Include="Properties\hangman02.png" />
-    <Content Include="Properties\hangman05.png" />
-    <Content Include="Properties\hangman06.png" />
-    <Content Include="Properties\hangman07.png" />
-    <Content Include="Properties\yay.gif" />
-    <None Include="Resources\Hangman-Game-red.png" />
-    <None Include="Resources\yay.gif" />
-    <None Include="Resources\hangman07.png" />
-    <None Include="Resources\hangman06.png" />
-    <None Include="Resources\hangman05.png" />
-    <None Include="Resources\hangman02.png" />
-    <None Include="Resources\hangman01.png" />
-    <None Include="Resources\dead.gif" />
-    <Content Include="yay.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
